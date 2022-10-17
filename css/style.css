@@ -17,6 +17,9 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
 /* Regole header */
 
 #logo,nav{
@@ -81,61 +84,76 @@ li{
 
 }
 
-/* Regole Responsive Header Tablet */
 
-@media  all and (max-width: 768px) {
-    #dekstop-menu{
-        display: none;
 
-    }
-    #mobile-menu{
-        display: block;
-    }
+
+  /*Regole Main  */
+
+  main {
+     margin-top:150px ;
+  }
+
+  .block{
+   /* DEBUG */
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    
+  }
+  .card{
+    width: calc(100% / 3 - 40px);
+    background-color: #b5ddff;
+    border-radius: 30px;
+    margin: 0 20px 20px 20px;
+    padding: 30px;
     
 }
 
-/*Regole Main  */
-
-main {
-    margin-top:150px ;
- }
-
- .card.big{
-   width: calc(100%/3*2);
- }
- section{
-    margin: 50px 0;
-    padding: 60px 0;
-}
-
-.block{
+.card.big{
+    width: calc((100% / 3 - 20px) * 2);
     display: flex;
-    flex-wrap: wrap;
-    /* debug */
-    background-color: cornflowerblue ;
-    min-height: 600px;
 }
 
-.card{
-    width: calc(100% / 3);
-    background-color: #6d8599;
-    /* debug */
-    border: 1px solid black;
-    min-height: 120px;
+.card.big div{
+    width: 50%;
 }
 
+.card.big p{
+    margin: 40px 0;
+}
 
+.card.big a{
+    color: #fff;
+    background-color: #0084fd;
+}
 
-.full{
+.card h3{
+    color: #0084fd;
+    margin: 30px 0;
+}
+
+.card.big img{
+    height: 270px;
+    padding: 0 50px;
+    position: relative;
+    bottom: -30px;
+}
+
+.card .big-icon{
+    font-size: 80px;
+    color: #0084fd ;
+}
+.full-bg{
     background-color: #9792e4;
 }
 
-.full-bg .planning{
+.full .planning{
     display: flex;
     justify-content: space-between;
 }
 
-.full-bg.different{
+.full.different{
     padding: 0 125px;
 }
 
@@ -192,7 +210,18 @@ footer{
     color: #fff;
 }
 
+  /* Regole Responsive Header Tablet */
 
+@media  all and (max-width: 768px) {
+    #dekstop-menu{
+        display: none;
+
+    }
+    #mobile-menu{
+        display: block;
+    }
+    
+}
 /* Regole Responsive prima sezione  */
 
 @media screen and (max-width:768px) {
@@ -202,7 +231,7 @@ footer{
 }
 
 /* Regole Responsive Smartphone */
-@media all and (max-width:480px) {
+@media screen and (max-width:480px) {
     .block{
         display: block;
     }
@@ -212,6 +241,3 @@ footer{
     }
     
 }
-
-
-  
