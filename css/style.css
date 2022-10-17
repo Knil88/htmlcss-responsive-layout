@@ -91,7 +91,7 @@ li{
   main {
      margin-top:150px ;
   }
-
+/* Regole Prima sezione */
   .block{
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +141,15 @@ li{
     font-size: 80px;
     color: #0084fd ;
 }
+
+#apple {
+    padding: 6px 60px;
+    text-align: -moz-right;
+    font-size: 16px;
+    font-weight: bold;
+  }
+/* Regole seconda sezione */
+
 .full{
     background-color: #9792e4;
 }
@@ -151,14 +160,31 @@ li{
 }
 
 .full.different{
-    padding: 0 125px;
+    padding: 160px 125px;
 }
 
-.full-bg .col img{
-    /* debug */
-    height: 380px;
+
+
+.full .col img{
+    /* width: 86%; */
+   
 }
 
+/* .position{
+    position: relative;
+}
+
+.left .right{
+    position: absolute;
+} */
+
+.left{
+    
+}
+
+.right{
+
+}
 .center{
     text-align: center;
 }
@@ -217,15 +243,20 @@ footer{
     #mobile-menu{
         display: block;
     }
+    /* Regole responsive prima sezione */
     
+   .card.big{
+    display: block;
+    right: 75px;
+   }
+   .card.big div{
+    width: 100%;
+   }
+   #apple{
+    margin: 0% 20%;
+   }
 }
-/* Regole Responsive prima sezione  */
 
-@media screen and (max-width:768px) {
-   
-  
-    
-}
 
 /* Regole Responsive Smartphone */
 @media screen and (max-width:480px) {
