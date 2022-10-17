@@ -28,6 +28,8 @@ a{
     min-height: 70px;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 100;
    
 }
@@ -46,11 +48,11 @@ li{
     padding: 5px 10px;
     margin-right: 10px;
 }
+
+
 #dekstop-menu{
     display: flex;
 }
-
-
 
 #top-pannel a {
     color: white;
@@ -58,8 +60,6 @@ li{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-
-
 
 .btn {
     cursor: pointer;
@@ -93,3 +93,16 @@ li{
     }
     
 }
+
+
+  /*Regole Main  */
+
+  main {
+     margin-top:150px ;
+  }
+
+  #block{
+   /* DEBUG */
+    background-color: cornflowerblue;
+    border: 2px solid black;
+  }
