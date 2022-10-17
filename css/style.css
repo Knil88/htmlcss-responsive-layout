@@ -46,7 +46,7 @@ li{
     padding: 5px 10px;
     margin-right: 10px;
 }
-nav{
+#dekstop-menu{
     display: flex;
 }
 
@@ -71,4 +71,25 @@ nav{
     color: black;
     font-size: 13px;
     padding: 6px;
+}
+
+#mobile-menu{
+     padding: 5px 10px;
+     color: white;
+     font-size: 30px;
+     display: none;
+
+}
+
+/* Regole Responsive Header Tablet */
+
+@media  all and (max-width: 768px) {
+    #dekstop-menu{
+        display: none;
+
+    }
+    #mobile-menu{
+        display: block;
+    }
+    
 }
