@@ -93,6 +93,25 @@ li{
     }
     
 }
+/* Regole Responsive prima sezione  */
+
+@media screen and (max-width:768px) {
+   
+  
+    
+}
+
+/* Regole Responsive Smartphone */
+@media all and (max-width:480px) {
+    .block{
+        display: block;
+    }
+    .card , .card.big{
+        width: 100%;
+        display: block;
+    }
+    
+}
 
 
   /*Regole Main  */
@@ -101,8 +120,19 @@ li{
      margin-top:150px ;
   }
 
-  #block{
+  .block{
    /* DEBUG */
     background-color: cornflowerblue;
-    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .card{
+    border: 1px solid black;
+    width: calc(100%/3);
+    min-height:200px ;
+
+  }
+  .card.big{
+    width: calc(100%/3*2);
   }
