@@ -166,17 +166,15 @@ li{
 
 
 .full .col img{
-    /* width: 86%; */
+    width: 100%;
    
 }
 
-/* .position{
-    position: relative;
-}
+ 
 
-.left .right{
+.left .right{ 
     position: absolute;
-} */
+}
 
 .left{
     
@@ -255,9 +253,18 @@ footer{
    #apple{
     margin: 0% 20%;
    }
+  /*Regole responsive seconda sezione  */
+  .full .col img {
+    width: 100%;
+  }
+  .full .planning{
+    display: block;
 }
 
+}
 
+  
+   
 /* Regole Responsive Smartphone */
 @media screen and (max-width:480px) {
     .block{
@@ -265,6 +272,25 @@ footer{
     }
     .card , .card.big{
         width: 100%;
+        display: block;
+    }
+    .card h3 {
+        color: #0084fd;
+        margin: 30px 65px;
+      }
+      .card.big p {
+        margin: 40px 70px;
+      }
+      .card.big img {
+       
+        padding: 0px 65px;
+       }
+       #apple{
+        margin: 0% 23%;
+       }
+        /*Regole responsive seconda sezione  */
+
+    .full .planning{
         display: block;
     }
     
