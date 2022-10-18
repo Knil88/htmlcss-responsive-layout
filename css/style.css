@@ -340,18 +340,33 @@ right: 27%;
     font-size: 15px;
   }
 
+  .full .container{
+    .full .container {
+      padding: 5%;
+    }
+  }
+
+  #start{
+    color: #d5d4f4;
+    font-size: 25px;
+  }
+
+  .giant{
+    font-size: 40px;
+  }
+
+  .gratis{
+    color: #fdc15f;
+    font-size: 80px;
+  }
+
 /* regole footer */
 footer{
     background-color: #333333;
     color: #fff;
 }
 
-/* Responsive intermedio */
-@media screen and (max-width:900px ){
-    #apple {
-        padding: 3% 8%;
-    }
-}
+
 
   /* Regole Responsive Header Tablet */
 
@@ -417,6 +432,11 @@ footer{
     margin: 20px 20px 20px 0px;
     margin: 10px 51px;
     margin: 10px;
+  }
+  #male {
+    width: 60%;
+    margin-left: 33%;
+    position: relative;
   }
 }
 
