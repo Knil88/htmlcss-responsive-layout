@@ -134,7 +134,7 @@ li{
     height: 270px;
     padding: 0 50px;
     position: relative;
-    bottom: -30px;
+    top: 25%;
 }
 
 .card .big-icon{
@@ -164,26 +164,6 @@ li{
 }
 
 
-
-.full .col img{
-    /* width: 100%; */
-   
-}
-
- 
-
-.left .right{ 
-    position: absolute;
-}
-
-.left{
-    width: 50%;
-    
-}
-
-.right{
-    width: 100%;
-}
 .center{
     text-align: center;
 }
