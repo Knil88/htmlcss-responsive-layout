@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+h2{
+    font-size: 35px;
+}
+
 
 /* Regole header */
 
@@ -83,6 +87,14 @@ li{
 
 }
 
+.center h3{
+    padding: 20px 0px;
+}
+
+.center h2{
+    padding: 20px 0px;
+}
+
 
 
 
@@ -134,7 +146,7 @@ li{
     height: 270px;
     padding: 0 50px;
     position: relative;
-    top: 25%;
+    top: 13%;
 }
 
 .card .big-icon{
@@ -143,7 +155,7 @@ li{
 }
 
 #apple {
-    padding: 6px 60px;
+    padding: 6px 30px;
     font-size: 16px;
     font-weight: bold;
   }
@@ -212,11 +224,35 @@ margin: 16px 0px;
     margin-left: 75px;
     font-size: 30px;
   }
-
-.feedback img{
-    border-radius: 50%;
-    width: 250px;
+  .color{
+    color: #9792e4;
     
+
+  }
+
+  .feedback-container{
+
+    position: relative;
+  }
+  .quote {
+    font-size: 40px;
+  }
+  
+  .cit{
+    width: 83%;
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+  
+.person{
+    margin: 0px 40px;
+}
+  .feedback img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 25px;
 }
 .feedback{
     background-color: #9792e4;
@@ -229,6 +265,9 @@ margin: 16px 0px;
     min-height: 300px;
 }
 
+.title-benefit{
+    padding: 40px 0px;
+}
 .benefits{
     display: flex;
     justify-content: space-between;
@@ -246,16 +285,17 @@ margin: 16px 0px;
   }
 .about{
     display: flex;
-    justify-content: space-between;
+    
 }
 
 #intext{
-    width: 60%;
-    border: 1px solid black;
+   width: 70%;
+ 
 }
 #male{
-    width: 40%;
-    border: 1px solid black;
+   
+   width: 30%;
+   margin-left: 76%;
 
 }
 #male img{
@@ -402,9 +442,32 @@ footer{
     .benefit{
         margin-left: 95px;
     }
+
     /* Responsive quinta sezione */
     .about{
         display: block;
         text-align: center;
+    }
+    #male img {
+        max-width: 130px;
+        margin-right: 233px;
+      }
+    #intext {
+      
+        text-align: initial;
+      }
+
+      /* Regole Responsive footer */
+    
+      #credit{
+        width: 93%;
+      }
+
+}
+
+/* Responsive elastico */
+@media screen and (max-width:1024px and min-width:768px){
+    .container{
+        width: 100%;
     }
 }
