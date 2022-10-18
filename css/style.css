@@ -6,8 +6,9 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
 }
+
 .container{
     width: 80%;
     margin: auto;
@@ -15,11 +16,23 @@ body{
 
 a{
     text-decoration: none;
+    
 }
 
 h2{
     font-size: 35px;
 }
+
+.no-bold{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+.copyright{
+  font-size: 5px;
+  vertical-align: middle;
+}
+
+
+
 
 
 /* Regole header */
@@ -359,6 +372,18 @@ right: 27%;
     color: #fdc15f;
     font-size: 80px;
   }
+
+  .begin {
+    padding: 10px;
+    margin: 20px 0px;
+    font-size: 15px;
+    border-radius: 42px;
+
+  }
+  #private{
+    text-decoration:underline ;
+  }
+
 
 /* regole footer */
 footer{
