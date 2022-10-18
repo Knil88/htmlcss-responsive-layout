@@ -163,15 +163,13 @@ li{
 }
 
 .planning{
-    width: 60%;
+    width: 80%;
     margin: auto;
 }
 
 .center{
     text-align: center;
 }
-
-
 
 .left img , .left p , .left h3{
 max-width: 400px;
@@ -183,6 +181,7 @@ max-width: 400px;
 }
 .right img ,.right p , .right h4{
 max-width: 200px;
+margin: 16px 0px;
 }
 
 .right p{
@@ -195,7 +194,7 @@ max-width: 200px;
     padding: 65px 70px;
     border-radius: 30px;
     margin: 160px 20px 0px 20px;
-    align-self: auto;
+  
   }
 .white{
     color: white;
@@ -205,11 +204,14 @@ max-width: 200px;
     font-size: 13px;
 }
 
-
-
-/* .center{ */
-text-align: center;
-}
+#arrow {
+    background-color: #9792e4;
+    border-radius: 50%;
+    text-align: center;
+    max-width: 50px;
+    margin-left: 75px;
+    font-size: 30px;
+  }
 
 .feedback img{
     border-radius: 50%;
@@ -294,7 +296,27 @@ footer{
   
   .full .planning{
     display: block;
+   
 }
+.planning{
+    width: 100%;
+    margin: auto;
+}
+.left img , .left p , .left h3{
+    max-width: 500px;
+    }
+
+    .right {
+       
+      }
+
+      #arrow{
+        margin-left: 145px;
+      }
+
+      .right img ,.right p , .right h4{
+        max-width: 340px;
+        }
   /*Regole Responsive terza Sezione  */
 
 
@@ -315,6 +337,9 @@ footer{
    
 /* Regole Responsive Smartphone */
 @media screen and (max-width:480px) {
+    .container{
+        margin-left: 30px;
+    }
     .block{
         display: block;
     }
@@ -330,17 +355,39 @@ footer{
         margin: 40px 70px;
       }
       .card.big img {
-       
+       top: 15px;
         padding: 0px 65px;
        }
        #apple{
-        margin: 0% 23%;
+        margin: 1% 23%;
        }
         /*Regole responsive seconda sezione  */
 
-    .full .planning{
-        display: block;
-    }
+        .full .planning{
+            display: block;
+           
+        }
+        .planning{
+            width: 100%;
+            margin: auto;
+        }
+        .left img , .left p , .left h3{
+            max-width: 100%;
+            }
+        
+            .right {
+                margin: 150px 0px 0px -26px;
+                padding: 16px 0px;
+                width: 260px;
+              }
+        
+              .right img ,.right p , .right h4{
+                max-width: 244px;
+                }
+                #arrow{
+                    margin-left: 100px;
+                }
+              
     
       /*Regole Responsive terza Sezione  */
     
