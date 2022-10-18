@@ -283,9 +283,14 @@ margin: 16px 0px;
     border-radius: 25px;
     margin: 20px 20px 10px 20px;
   }
-.about{
+
+  .about {
     display: flex;
-    
+    margin: 4% 14%;
+  }    
+
+#bigger{
+    font-size: 50px;
 }
 
 .color-2{
@@ -300,21 +305,40 @@ button a{
 margin: 15px;
 }
 
-#intext{
-   width: 70%;
- 
-}
-#male{
-   
-   width: 30%;
-   margin-left: 65%;
+#intext {
+    
+   width: 100%;
+  }
 
-}
-#male img{
-    width: 100%;
+  #male {
+    width: 40%;
+    margin-left: 56%;
+    position: relative;
+  }
+
+  #interview{
+ position: absolute;
+right: 27%;
+  }
+  #testimony {
+    font-size: 20px;
+    font-weight: bolder;
+    
+  }
+  #male img {
+    width: 70%;
     border-radius: 50%;
-}
+    margin: 0px 12px;
+     
+    margin-bottom: 15px;
+  }
 
+  .linkedin {
+    background-color: #9792e4;
+    padding: 4px 8px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
 
 /* regole footer */
 footer{
